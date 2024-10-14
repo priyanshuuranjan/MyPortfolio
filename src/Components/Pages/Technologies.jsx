@@ -1,6 +1,6 @@
 import { BiLogoNetlify } from "react-icons/bi";
 import { BsFiletypeJson, BsFiletypeXml } from "react-icons/bs";
-
+import cppImage from "../../assets/cpp.png";
 import { FiFigma } from "react-icons/fi";
 import {
   FaAws,
@@ -31,6 +31,9 @@ const Technologies = () => {
       <h2 className="my-20 text-center text-4xl">Technologies</h2>
 
       <div className="flex flex-wrap items-center justify-center gap-4">
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <img src={cppImage} alt="C++ logo" className="h-16 w-16" />
+        </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <FaHtml5 className="text-7xl text-yellow-700" />
         </div>
