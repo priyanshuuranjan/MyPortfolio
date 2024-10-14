@@ -19,4 +19,23 @@ export const TRAINING = [
   },
 ];
 
-
+export const EDUCATION = [
+  {
+    year: "2020 - 2024",
+    degree: "B.Tech. in Computer Science",
+    institution: "Lovely Professional University, Phagwara, IN",
+    description: `Studying Computer Science at LPU since 2020. Engaging with cutting-edge technology, coding, and problem-solving, preparing for a future in the digital world.`,
+  },
+  {
+    year: "2018 - 2020",
+    degree: "Intermediate | Science",
+    institution: "M H K College, Bihar, IN",
+    description: `Studied Science at M H K College for an enriching experience, embracing innovative learning, and preparing for future academic and professional success.`,
+  },
+  {
+    year: "2015 - 2017",
+    degree: "Higher School",
+    institution: "MS Memorial Public School, Bihar, IN",
+    description: `Completed Higher School with a focus on fostering academic excellence and personal growth, preparing for future achievements.`,
+  },
+];

@@ -1,3 +1,4 @@
+import Education from "./Components/Pages/Education";
 import Hero from "./Components/Pages/Hero";
 import Navbar from "./Components/Pages/Navbar";
 import Technologies from "./Components/Pages/Technologies";
@@ -16,6 +17,7 @@ function App() {
         <Hero/>
         <Technologies/>
         <Training/>
+        <Education/>
       </div>
     </>
   );
