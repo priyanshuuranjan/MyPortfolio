@@ -1,3 +1,10 @@
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
+
 export const HERO_CONTENT = `I possess a passion for Full Stack development and a range of technical skills including expertise in the MERN stack, HTML, CSS, JavaScript, and React. My knowledge also extends to DBMS and Computer Networks. My creative and innovative personality, coupled with a strong passion for self-learning, makes me an asset to any project or team.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
@@ -11,7 +18,7 @@ export const TRAINING = [
     technologies: ["C++", "Data Structures", "Algorithms"],
   },
   {
-    year: "02/2022 - 032023",
+    year: "02/2022 - 03/2023",
     role: "ReactJS ",
     company: "Hitbullseye",
     description: `Gained hands-on experience in building user interfaces using ReactJS. Developed personal projects focusing on state management, component lifecycle, and reusable components. Integrated React applications with Firebase for backend services and used Redux for efficient state management.`,
@@ -37,5 +44,63 @@ export const EDUCATION = [
     degree: "Higher School",
     institution: "MS Memorial Public School, Bihar, IN",
     description: `Completed Higher School with a focus on fostering academic excellence and personal growth, preparing for future achievements.`,
+  },
+];
+
+export const PROJECTS = [
+  {
+    title: "Auction Website",
+    image: project1,
+    description:
+      "A dynamic auction website where users can bid on items after logging in. Features include item uploads, real-time bidding, and payment processing for winners.",
+    technologies: ["HTML", "CSS", "React", "Hooks", "Firebase", "Storage"],
+    githubLink: "https://github.com/priyanshuuranjan/Bidding",
+    liveLink: "https://bidster.netlify.app/",
+  },
+  {
+    title: "Fertilizer Shop",
+    image: project2,
+    description:
+      "An e-commerce platform tailored for farmers to easily purchase fertilizer products. Features include user authentication and a user-friendly interface.",
+    technologies: ["HTML", "CSS", "React", "Firebase", "Node.js", "Stripe"],
+    githubLink: "https://github.com/priyanshuuranjan/Ecommerce-Website",
+    liveLink: "https://kumarfertilizer.netlify.app/",
+  },
+  {
+    title: "Portfolio Website",
+    image: project3,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information, built using React, Tailwind CSS, and Framer Motion for smooth animations.",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Framer Motion"],
+    githubLink: "https://github.com/priyanshuuranjan/MyPortfolio",
+    liveLink: "",
+  },
+  {
+    title: "Complaint Management System",
+    image: project4,
+    description:
+      "A system designed for college students to raise issues they encounter. It allows students to submit complaints and track their resolution.",
+    technologies: ["HTML", "CSS", "React", "Firebase"],
+    githubLink:
+      "https://github.com/priyanshuuranjan/Complaint-Management-System",
+    liveLink: "https://cmsui.netlify.app/login",
+  },
+  {
+    title: "Mail Sender",
+    image: project5,
+    description:
+      "A user-friendly mail sender website developed using NodeMailer, enabling users to effortlessly send emails.",
+    technologies: ["Node.js", "NodeMailer", "Express", "HTML", "CSS"],
+    githubLink: "https://github.com/priyanshuuranjan/Mail-Sender",
+    liveLink: "https://github.com/priyanshuuranjan/Mail-Sender",
+  },
+  {
+    title: "Photography Website",
+    image: project6,
+    description:
+      "Discover our diverse collection of free newborn baby photo frames on our website.",
+    technologies: ["HTML", "CSS", "Bootstrap"],
+    githubLink: "https://github.com/priyanshuuranjan/Photography",
+    liveLink: "https://priyanshuuranjan.github.io/Photography/index.html",
   },
 ];

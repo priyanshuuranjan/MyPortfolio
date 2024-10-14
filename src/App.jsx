@@ -3,6 +3,7 @@ import Hero from "./Components/Pages/Hero";
 import Navbar from "./Components/Pages/Navbar";
 import Technologies from "./Components/Pages/Technologies";
 import Training from "./Components/Pages/Training";
+import Projects from "./Components/Pages/Projects";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Technologies/>
         <Training/>
         <Education/>
+        <Projects/>
       </div>
     </>
   );

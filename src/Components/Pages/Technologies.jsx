@@ -1,5 +1,7 @@
 import { BiLogoNetlify } from "react-icons/bi";
 import { BsFiletypeJson, BsFiletypeXml } from "react-icons/bs";
+
+import { FiFigma } from "react-icons/fi";
 import {
   FaAws,
   FaBootstrap,
@@ -8,12 +10,13 @@ import {
   FaHtml5,
   FaNode,
 } from "react-icons/fa";
-import { FiFigma } from "react-icons/fi";
+
 import {
   RiFirebaseFill,
   RiReactjsLine,
   RiTailwindCssFill,
 } from "react-icons/ri";
+
 import {
   SiJavascript,
   SiMongodb,
