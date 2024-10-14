@@ -1,5 +1,6 @@
 import Hero from "./Components/Pages/Hero";
 import Navbar from "./Components/Pages/Navbar";
+import Technologies from "./Components/Pages/Technologies";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="container mx-auto px-8">
         <Navbar />
         <Hero/>
+        <Technologies/>
       </div>
     </>
   );
