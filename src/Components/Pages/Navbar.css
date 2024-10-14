@@ -25,11 +25,11 @@
   transform: scale(1.05);
 }
 
-.nav-mob-close{
-    display: none;
+.nav-mob-close {
+  display: none;
 }
-.nav-mob-open{
-    display: none;
+.nav-mob-open {
+  display: none;
 }
 @media (max-width: 768px) {
   .navbar {
@@ -63,8 +63,8 @@
     transition: right 0.5s;
     right: -350px;
   }
-  .nav-menu li{
-    font-size:30px;
+  .nav-menu li {
+    font-size: 30px;
     padding-left: 100px;
     flex-direction: row;
     gap: 20px;
