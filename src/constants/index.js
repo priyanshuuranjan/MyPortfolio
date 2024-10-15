@@ -106,5 +106,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "B45 Motihari, Bihar, India ",
   phoneNo: "+91 9523743222 ",
-  email: "priyanshummth@gmail.com",
+  email: "priyanshumth0808@gmail.com",
 };
