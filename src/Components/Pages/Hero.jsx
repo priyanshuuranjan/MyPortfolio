@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../../constants";
 import profilePic from "../../assets/Priyanshu.png";
 import { motion } from "framer-motion";
+import { Typewriter } from "react-simple-typewriter"; // Import Typewriter
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -21,29 +22,50 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-10 text-4xl font-medium tracking-tight lg:mt-16 lg:text-7xl"
             >
-              Priyanshu Ranjan
+              <h1>
+                {" "}
+                Hi, I’m <span className="text-red-400">
+                  Priyanshu Ranjan,
+                </span>a{" "}
+              </h1>
             </motion.h1>
-            <motion.span
+            <motion.h2
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
+              className="  text-6xl font-medium tracking-tight lg:mt-3 lg:text-6xl"
             >
-              Full Stack Developer
-            </motion.span>
+              <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent">
+                <Typewriter
+                  words={[
+                    " Fronted Developer.",
+                    " Full Stack Developer",
+                    " Professional Coder.",
+                  ]}
+                  loop
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              </span>
+            </motion.h2>
+
             <motion.p
-              variants={container(1)}
+              variants={container(1.5)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-3 max-w-xl py-8 font-light text-xl tracking-tighter"
             >
               {HERO_CONTENT}
             </motion.p>
+           
           </div>
         </div>
-        <div className=" w-full lg:w-1/2 lg:p-8">
+        <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
@@ -51,7 +73,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
               alt="Priyanshu Ranjan"
-              //   className="rounded-full h-64 w-64 object-cover"
+              className="rounded-full h-38 w-38 object-cover"
             />
           </div>
         </div>
