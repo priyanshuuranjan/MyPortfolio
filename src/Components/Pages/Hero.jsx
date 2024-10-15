@@ -2,7 +2,7 @@ import { HERO_CONTENT } from "../../constants";
 import profilePic from "../../assets/Priyanshu.png";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter"; // Import Typewriter
-import CV from "../../assets/CV.pdf"
+import CV from "../../assets/CV.pdf";
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
   visible: {
@@ -28,7 +28,8 @@ const Hero = () => {
                 {" "}
                 Hi, I’m <span className="text-red-400">
                   Priyanshu Ranjan,
-                </span>a{" "}
+                </span>{" "}
+                a{" "}
               </h1>
             </motion.h1>
             <motion.h2
@@ -63,10 +64,13 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
             <motion.a
-              href={CV} 
+              href={CV}
               download
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
+              variants={container(2)}
+              initial="hidden"
+              animate="visible"
               className="bg-red-500 text-white px-6 py-3 mb-10 rounded-full shadow-lg font-semibold text-lg mt-4"
             >
               Download CV
