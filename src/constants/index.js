@@ -104,3 +104,9 @@ export const PROJECTS = [
     liveLink: "https://priyanshuuranjan.github.io/Photography/index.html",
   },
 ];
+
+export const CONTACT = {
+  address: "B45 Motihari, Bihar, India ",
+  phoneNo: "+91 9523743222 ",
+  email: "priyanshummth@gmail.com",
+};
