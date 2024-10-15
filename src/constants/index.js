@@ -1,13 +1,11 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
 
-export const HERO_CONTENT = `I possess a passion for Full Stack development and a range of technical skills including expertise in the MERN stack, HTML, CSS, JavaScript, and React. My knowledge also extends to DBMS and Computer Networks. My creative and innovative personality, coupled with a strong passion for self-learning, makes me an asset to any project or team.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I am a passionate Full Stack Developer with expertise in React.js and modern web technologies like HTML, CSS, JavaScript, and Redux Toolkit. My skill set extends to working with Firebase, Node.js, Express, and handling databases such as MongoDB. I also have experience in DBMS, Cloud technologies, and a solid foundation in Data Structures, Algorithms, and Computer Networks. While I am passionate about Full Stack Development, I am currently focused on Frontend Development. My innovative approach, strong problem-solving abilities, and commitment to accessibility make me a valuable asset to any team or project.`;
 
 export const TRAINING = [
   {
