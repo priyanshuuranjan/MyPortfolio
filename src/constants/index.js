@@ -16,7 +16,7 @@ export const TRAINING = [
     technologies: ["C++", "Data Structures", "Algorithms"],
   },
   {
-    year: "02/2022 - 03/2023",
+    year: "02/2022 - 03/2022",
     role: "ReactJS ",
     company: "Hitbullseye",
     description: `Gained hands-on experience in building user interfaces using ReactJS. Developed personal projects focusing on state management, component lifecycle, and reusable components. Integrated React applications with Firebase for backend services and used Redux for efficient state management.`,
