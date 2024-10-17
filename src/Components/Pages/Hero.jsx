@@ -38,11 +38,11 @@ const Hero = () => {
               animate="visible"
               className="  text-6xl font-medium tracking-tight lg:mt-3 lg:text-6xl"
             >
-              <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent">
+              <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent block min-h-[96px] overflow-hidden">
                 <Typewriter
                   words={[
                     " Frontend Developer.",
-                    " Full Stack Developer",
+                    " Full Stack Developer.",
                     " Professional Coder.",
                   ]}
                   loop
