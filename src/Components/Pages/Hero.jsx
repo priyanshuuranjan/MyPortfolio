@@ -2,7 +2,7 @@ import { HERO_CONTENT } from "../../constants";
 import profilePic from "../../assets/Priyanshu.png";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter"; // Import Typewriter
-import CV from "../../assets/CV.pdf";
+import CV from "../../assets/Downloaded CV.pdf";
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
   visible: {
