@@ -61,8 +61,8 @@ export const PROJECTS = [
     description:
       "An e-commerce platform tailored for farmers to easily purchase fertilizer products. Features include user authentication and a user-friendly interface.",
     technologies: ["HTML", "CSS", "React", "Firebase", "Node.js", "Stripe"],
-    githubLink: "https://github.com/priyanshuuranjan/Ecommerce-Website",
-    liveLink: "https://kumarfertilizer.netlify.app/",
+    githubLink: "https://github.com/priyanshuuranjan/Fertilizer-Shop-admin",
+    liveLink: "https://kumarfertilizer.onrender.com/",
   },
   {
     title: "Portfolio Website",
