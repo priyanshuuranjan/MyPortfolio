@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
 
 export const HERO_CONTENT = `I am a passionate Full Stack Developer with expertise in React.js and modern web technologies like HTML, CSS, JavaScript, and Redux Toolkit. My skill set extends to working with Firebase, Node.js, Express, and handling databases such as MongoDB. I also have experience in DBMS, Cloud technologies, and a solid foundation in Data Structures, Algorithms, and Computer Networks. While I am passionate about Full Stack Development, I am currently focused on Frontend Development. My innovative approach, strong problem-solving abilities, and commitment to accessibility make me a valuable asset to any team or project.`;
 
@@ -63,6 +64,15 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Firebase", "Node.js", "Stripe"],
     githubLink: "https://github.com/priyanshuuranjan/Fertilizer-Shop-admin",
     liveLink: "https://kumarfertilizer.onrender.com/",
+  },
+  {
+    title: "AI Code Reviewer",
+    image: project7,
+    description:
+      " AI-powered code reviewer built as a Chrome Extension and React Web App. Instantly get feedback on any code snippet using OpenAI.",
+    technologies: ["React", "Tailwind", "express", "openai", "Chrome-extension", "Node.js"],
+    githubLink: "https://github.com/priyanshuuranjan/AI-Code-Reviewer",
+    liveLink: "https://aicodereviewer-mjqp.onrender.com/",
   },
   {
     title: "Portfolio Website",
